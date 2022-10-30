@@ -1,0 +1,31 @@
+.year {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.yearname {
+    width: 100%;
+    text-align: center;
+}
+
+.month {
+    display: grid;
+    width: 300px;
+    grid-gap: 0.5rem;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-auto-flow: dense;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+.monthname {
+    grid-column: span 8;
+    text-align:center;
+}
+
+.day {
+    text-align: left;
+    background-color: lightblue;
+    padding: 0.5rem;
+}
